@@ -3,6 +3,7 @@
 **Editorial CMS for National WWOOF Organizations**
 
 **Published:** February 2026
+
 **Proposal Deadline:** March 31, 2026
 
 ## 1. Project Overview
