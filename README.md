@@ -116,6 +116,7 @@ These features are **explicitly out of scope for the MVP**, but the proposed sol
   * Front-end design and presentation
   * Block design and page templates
   * Navigation consistency **between CMS sites and CWP**
+* The existing [editorial website of **WWOOF France**](https://asso.wwoof.fr/) can be used as a reference and starting point for block design and page structures, in order to leverage prior design work and reduce unnecessary redesign efforts
 * No need to redesign CMS admin interface beyond minimal usability improvements
 
 ## 5. Timeline
