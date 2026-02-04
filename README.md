@@ -119,8 +119,8 @@ Proposals will be evaluated on:
 
 ## 9. Submission Instructions
 
-* Proposals must be submitted via email to: **[your email/contact]**
+* Proposals must be submitted [here](https://airtable.com/appPzDblrauasJbUp/pagpPoe9OuYFjsoye/form).
 * Format: PDF or Markdown document, including all sections listed above
 * Deadline: **March 31, 2026**
 
-Questions about the RFP may be submitted until **March 15, 2026**; answers will be shared with all prospective vendors.
+Questions about the RFP may be submitted via email to [dev@wwoof.net](mailto:dev@wwoof.net) until **March 15, 2026**.
