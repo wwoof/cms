@@ -7,11 +7,11 @@
 
 ## 1. Project Overview
 
-The **Federation of WWOOF Organizations** operates a shared technical platform, the **Common WWOOF Platform (CWP)**, which manages member listings, memberships, messaging, and reviews.
+The **Federation of WWOOF Organizations** operates a shared technical platform, the **Common WWOOF Platform (CWP)**, which manages member listings, memberships, messaging, reviews, etc. for 25+ national organisations. Examples: [Canada](https://wwoof.ca), [France](https://wwoof.fr), [Korea](https://wwoof.kr).
 
-Alongside the CWP, **national WWOOF organizations** need modern, public-facing editorial websites. These sites communicate values, share news and events, showcase coordinators, and provide an entry point for prospective members and partners.
+Alongside the CWP, **national WWOOF organizations** need modern, public-facing editorial websites. These sites communicate values, share news and events, showcase coordinators, and provide an entry point for prospective members and volunteers.
 
-Currently, national organizations use a variety of approaches (custom websites, WordPress, third-party tools), resulting in inconsistent quality, duplicated effort, and fragmented user experience.
+Currently, national organizations use a variety of approaches (custom websites, WordPress, third-party tools), resulting in inconsistent quality, duplicated effort, and fragmented user experience. Examples: [Canada](https://org.wwoof.ca), [France](https://asso.wwoof.fr), [Italy](https://org.wwoof.it), [USA](https://impact.wwoofusa.org/).
 
 We are seeking proposals to build a **shared editorial CMS** that can:
 
@@ -19,7 +19,7 @@ We are seeking proposals to build a **shared editorial CMS** that can:
 * Support multilingual content per site
 * Offer an easy-to-use editor experience for national coordinators
 * Allow multi-site management, enabling super admins to deploy new websites or languages easily
-* Expose content via APIs for potential reuse in the CWP
+* Expose content via APIs for potential reuse in the CWP (for exampple: showing events created in the CMS inside the CWP)
 
 ## 2. Objectives & Goals
 
@@ -27,7 +27,7 @@ The CMS should:
 
 * Clearly represent each national organization and its people
 * Fit both small and large organizations, from minimal content to complex editorial needs
-* Align visually and structurally with the broader WWOOF ecosystem
+* Align visually and structurally with the broader WWOOF ecosystem (see our [visual identity](https://drive.google.com/file/d/1fFN24M7fK2MSsHPYfEXoW7albiWhkpqZ/view?usp=sharing))
 * Require minimal ongoing technical involvement from the Federation’s IT team
 * Complement, not replace, the CWP — focusing solely on editorial content and public communication
 
@@ -54,11 +54,11 @@ The initial version should include:
 ### 3.3 Integrations
 
 * Loose, read-only integration with CWP via APIs
-* Optional integrations: newsletters, webinar tools (e.g., Calendly), donations (Stripe), social media embeds
+* Optional integrations: newsletters (e.g., Brevo/Mailchimp), webinar tools (e.g., Calendly), donations (Stripe), social media embeds
 
 ### 3.4 Technical & Hosting Requirements
 
-* Proposal should include **technology choice recommendations** (WordPress, Craft, Statamic, or alternatives)
+* Proposal should include **technology choice recommendations** (WordPress, Craft, Statamic, etc.)
 * CMS should allow **self-hosting** on our servers (Kubernetes) or via a cloud provider, owned by the Federation
 * Vendor may customize CMS admin interface minimally to simplify editor experience
 * Content must be **exposable via APIs**, maintaining separation of content and presentation
@@ -67,7 +67,7 @@ The initial version should include:
 ## 4. Design & User Experience
 
 * Strong emphasis on **mobile-first responsive design**
-* Visual identity already defined; vendor should focus on:
+* [Visual identity](https://drive.google.com/file/d/1fFN24M7fK2MSsHPYfEXoW7albiWhkpqZ/view?usp=sharing) already defined; vendor should focus on:
 
   * Front-end design and presentation
   * Block design and page templates
