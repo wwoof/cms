@@ -54,7 +54,37 @@ The initial version should include:
 * Coordinators should ideally have access **only to their national site**
 * Multi-site must be supported **out-of-the-box**, without relying on custom infrastructure
 
-### 3.3 Integrations
+### 3.3 User Types & Access Levels
+
+The CMS is intended to support a small, clearly defined set of user roles. These roles are described here to clarify expectations around access and permissions.
+
+#### Super Admins (Federation)
+
+* A very limited number of users (approximately 2–3 people)
+* Employed by the Federation of WWOOF Organizations
+* Responsibilities include:
+  * Creating and removing sites (national sites and language variants)
+  * Managing domains and basic site configuration (shared plugins, global settings, etc.)
+  * Granting and revoking access to specific sites for other users
+* Super admins require access across all sites
+
+#### Editors / Coordinators (National Organizations)
+
+* Employees or trusted volunteers of national WWOOF organizations
+* Typically have access to **one national website only**
+* May manage content in one or more languages for that site
+* Responsible for:
+  * Creating and editing pages, posts, and events
+  * Managing editorial content using blocks
+* Fine-grained role management is not required for the MVP; simplicity and clarity are preferred
+
+#### Public Users (Visitors)
+
+* No authentication
+* Includes members of national organizations and the general public
+* Can browse public content and submit information via public forms (e.g. contact forms)
+
+### 3.4 Integrations
 
 * Loose, read-only integration with CWP via APIs
 * Optional integrations: newsletters (e.g., Brevo/Mailchimp), webinar tools (e.g., Calendly), donations (Stripe), social media embeds
@@ -67,11 +97,22 @@ The initial version should include:
 * Content must be **exposable via APIs**, maintaining separation of content and presentation
 * Maintenance plan option is encouraged but not required
 
+### 3.5 Future Considerations (Out of Scope for MVP)
+
+In the future, the CMS may support **limited, unauthenticated content submission** by public users, for example:
+
+* Submitting a marketplace item (e.g. equipment for sale, job offer)
+* One-time form-based submissions
+* No user accounts
+* No ability to edit content after submission
+* All submissions require approval by an admin before publication
+
+These features are **explicitly out of scope for the MVP**, but the proposed solution should not make them impossible to implement later.
+
 ## 4. Design & User Experience
 
 * Strong emphasis on **mobile-first responsive design**
 * [Visual identity](https://drive.google.com/file/d/1fFN24M7fK2MSsHPYfEXoW7albiWhkpqZ/view?usp=sharing) already defined; vendor should focus on:
-
   * Front-end design and presentation
   * Block design and page templates
   * Navigation consistency **between CMS sites and CWP**
