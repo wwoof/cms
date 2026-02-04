@@ -8,6 +8,8 @@
 
 ## 1. Project Overview
 
+The Worldwide Opportunities on Organic Farms (WWOOF) is a non-governmental not-for-profit network of local organizations connecting visitors with organic farmers to foster educational and cultural exchange and build a global community mindful of ecological farming. More information is available at [wwoof.net](https://wwoof.net).
+
 The **Federation of WWOOF Organizations** operates a shared technical platform, the **Common WWOOF Platform (CWP)**, which manages member listings, memberships, messaging, reviews, etc. for 25+ national organisations. Examples: [Canada](https://wwoof.ca), [France](https://wwoof.fr), [Korea](https://wwoof.kr).
 
 Alongside the CWP, **national WWOOF organizations** need modern, public-facing editorial websites. These sites communicate values, share news and events, showcase coordinators, and provide an entry point for prospective members and volunteers.
