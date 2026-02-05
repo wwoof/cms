@@ -14,7 +14,7 @@ The **Federation of WWOOF Organizations** operates a shared technical platform, 
 
 Alongside the CWP, **national WWOOF organizations** need modern, public-facing editorial websites. These sites communicate values, share news and events, showcase coordinators, and provide an entry point for prospective members and volunteers.
 
-Currently, national organizations use a variety of approaches (custom websites, WordPress, third-party tools), resulting in inconsistent quality, duplicated effort, and fragmented user experience. Examples: [Canada](https://org.wwoof.ca), [France](https://asso.wwoof.fr), [Italy](https://org.wwoof.it), [USA](https://impact.wwoofusa.org/).
+Currently, national organizations use a variety of approaches (custom websites, WordPress, third-party tools), resulting in inconsistent quality, duplicated effort, and fragmented user experience. Examples: [Canada](https://org.wwoof.ca), [France](https://asso.wwoof.fr), [Italy](https://org.wwoof.it), [USA](https://impact.wwoofusa.org/), [Portugal](https://org.wwoof.pt).
 
 We are seeking proposals to build a **shared editorial CMS** that can:
 
