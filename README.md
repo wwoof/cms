@@ -160,7 +160,7 @@ Proposals should include:
 
 Proposals will be evaluated on:
 
-* Technical simplicity and maintainability
+* Technical simplicity and maintainability: no reinventing the wheel, no spaceship!
 * Usability for coordinators (non-technical users)
 * Cost and efficiency
 * Quality of previous design and development work
