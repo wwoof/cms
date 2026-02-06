@@ -36,29 +36,72 @@ The CMS should:
 
 ## 3. Scope & Deliverables
 
-### 3.1 MVP Features
+### 3.1 Overview of MVP Features
 
 The initial version should include:
 
 * **Pages**: static and semi-static pages (About, Projects, Press, Contact, etc.)
 * **Blog / News**: consistent structure (titles, text, images)
-* **Events**: structured fields with listing pages
-* **Content Blocks**: ~15–20 reusable blocks (text+image, calls to action, coordinator list via CWP API, featured hosts, social embeds, document downloads, etc.)
-* **Multilingual Support**: per-site languages, with flexible translation workflow
+* **Events**: structured fields with listing page
+* **Content Blocks**: ~15–20 reusable blocks (see list below)
+* **Multilingual Support**: per-site languages
 * **Media Uploads**: image and document support for editors
-* **Server-Side Rendering**: content must be indexable by search engines
 
-### 3.2 Multi-Site Management
+### 3.2 Content Blocks
+
+The CMS should provide approximately **15–20 reusable content blocks**, grouped into two categories:
+
+#### A. Standard CMS Blocks (styled to WWOOF visual identity)
+
+These are common blocks typically available in modern CMSs, requiring only light customization and design alignment:
+
+* Rich text / paragraph
+* Image and image + text
+* Call to action (button, link)
+* Gallery / carousel
+* Video embed (e.g. YouTube)
+* Social icons / links
+* Document download
+* Simple lists and separators
+
+#### B. Custom “WWOOF” Blocks
+
+These blocks are specific to WWOOF needs and may pull data from external APIs (CWP or third-party services):
+
+* **Testimonials / member reviews**  
+  Read-only display from a public CWP REST API.
+
+* **Coordinators block**  
+  Display coordinators (photo, name, short bio) from a public CWP REST API, with two presentation modes:
+  * List / grid / carousel
+  * Map-based view (same data, alternate visualization).
+
+* **Upcoming events carousel**  
+  Dynamic carousel displaying upcoming events for the organization, sourced from the CMS events content.
+
+* **Newsletter subscription**  
+  Integration with multiple providers: Brevo, Mailchimp, MailerLite, EmailIt (site-specific configuration).
+
+* **Social media feeds**  
+  Primarily Instagram feeds; optional support for other embeds.
+
+* **Key numbers / impact statistics**  
+  Highlighted metrics (e.g. number of members, impact figures), editable or API-driven.
+
+* **Global or page-level alert banner**  
+  Configurable banner for important announcements, optionally shown site-wide.
+
+### 3.3 Multi-Site Management
 
 * Super admins must be able to **add/remove new sites** or new language versions easily
 * Coordinators should ideally have access **only to their national site**
 * Multi-site must be supported **out-of-the-box**, without relying on custom infrastructure
 
-### 3.3 User Types & Access Levels
+### 3.4 User Types & Access Levels
 
 The CMS is intended to support a small, clearly defined set of user roles. These roles are described here to clarify expectations around access and permissions.
 
-#### Super Admins (Federation)
+#### A. Super Admins (Federation)
 
 * A very limited number of users (approximately 2–3 people)
 * Employed by the Federation of WWOOF Organizations
@@ -68,7 +111,7 @@ The CMS is intended to support a small, clearly defined set of user roles. These
   * Granting and revoking access to specific sites for other users
 * Super admins require access across all sites
 
-#### Editors / Coordinators (National Organizations)
+#### B. Editors / Coordinators (National Organizations)
 
 * Employees or trusted volunteers of national WWOOF organizations
 * Typically have access to **one national website only**
@@ -78,26 +121,22 @@ The CMS is intended to support a small, clearly defined set of user roles. These
   * Managing editorial content using blocks
 * Fine-grained role management is not required for the MVP; simplicity and clarity are preferred
 
-#### Public Users (Visitors)
+#### C. Public Users (Visitors)
 
 * No authentication
 * Includes members of national organizations and the general public
 * Can browse public content and submit information via public forms (e.g. contact forms)
 
-### 3.4 Integrations
-
-* Loose, read-only integration with CWP via APIs
-* Optional integrations: newsletters (e.g., Brevo/Mailchimp), webinar tools (e.g., Calendly), donations (Stripe), social media embeds
-
-### 3.4 Technical & Hosting Requirements
+### 3.5 Technical & Hosting Requirements
 
 * Proposal should include **technology choice recommendations** (WordPress, Craft, Statamic, etc.)
 * CMS should allow **self-hosting** on our servers (Kubernetes) or via a cloud provider, owned by the Federation
+* Content must be indexable by search engines (Server-Side Rendering)
 * Vendor may customize CMS admin interface minimally to simplify editor experience
 * Content must be **exposable via APIs**, maintaining separation of content and presentation
 * Maintenance plan option is encouraged but not required
 
-### 3.5 Future Considerations (Out of Scope for MVP)
+### 3.6 Future Considerations (Out of Scope for MVP)
 
 In the future, the CMS may support **limited, unauthenticated content submission** by public users, for example:
 
