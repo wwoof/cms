@@ -30,7 +30,7 @@ The CMS should:
 
 * Clearly represent each national organization and its people
 * Fit both small and large organizations, from minimal content to complex editorial needs
-* Align visually and structurally with the broader WWOOF ecosystem (see our [visual identity](https://drive.google.com/file/d/1fFN24M7fK2MSsHPYfEXoW7albiWhkpqZ/view?usp=sharing))
+* Align visually and structurally with the broader WWOOF ecosystem
 * Require minimal ongoing technical involvement from the Federation’s IT team
 * Complement, not replace, the CWP — focusing solely on editorial content and public communication
 
@@ -88,7 +88,7 @@ These blocks are specific to WWOOF needs and may pull data from external APIs (C
   Primarily Instagram feeds; optional support for other embeds.
 
 * **Key numbers / impact statistics**  
-  Highlighted metrics (e.g. number of members, impact figures), editable or API-driven.
+  Highlighted metrics (e.g. number of members, impact figures), input manually (no API).
 
 * **Global or page-level alert banner**  
   Configurable banner for important announcements, optionally shown site-wide.
@@ -214,7 +214,72 @@ Proposals will be evaluated on:
 * CMS must allow Federation IT team to take full ownership post-MVP
 * Vendor must provide code in a **GitHub repository under the Federation’s organization**
 
-## 10. Submission Instructions
+## 10. Federation Involvement & Project Assumptions
+
+To help vendors provide realistic and well-calibrated proposals, we want to clarify how this project will be supported internally by the Federation, and what assumptions should be made regarding scope, uncertainty, and collaboration.
+
+### 10.1 Design Foundations
+
+The design phase is **not starting from scratch**.
+
+The WWOOF Federation already has:
+
+* An established [visual identity](https://drive.google.com/file/d/1fFN24M7fK2MSsHPYfEXoW7albiWhkpqZ/view?usp=sharing)
+* An existing editorial website ([WWOOF France](https://asso.wwoof.fr/)) that has undergone several rounds of professional design work in recent years
+* A clear understanding of content structure, editorial needs, and constraints across national organizations
+
+These existing assets are expected to be **reused and adapted** as much as possible, particularly for standard content blocks.
+The role of the vendor is therefore primarily to:
+
+* Help refine and formalize block designs where needed
+* Ensure consistency and usability across blocks and sites
+* Avoid unnecessary redesign of well-established patterns
+
+Heavy exploratory branding or visual identity work is **out of scope**.
+
+### 10.2 Development Collaboration
+
+The Federation will dedicate an **in-house software engineer** to this project throughout the development phase.
+
+This person will:
+
+* Be available for technical discussions and architectural decisions
+* Assist with API integrations (CWP, newsletters, etc.)
+* Support testing and validation
+* Potentially contribute code directly, after ramping up on the selected technology, if this helps accelerate delivery
+
+Vendors should assume a **collaborative development model**, rather than a fully outsourced, black-box implementation.
+
+### 10.3 Deployment & Operations Support
+
+The Federation has existing experience operating editorial websites, including:
+
+* CMS hosting with cloud providers
+* WordPress multisite deployments
+* DNS management
+* Ongoing maintenance and support for several national WWOOF websites
+
+Depending on the proposed solution, the Federation can actively assist with:
+
+* Deployment and environment setup
+* Multisite configuration
+* Ongoing operational concerns
+
+Proposals should therefore **not assume that all infrastructure, deployment, and operational work must be handled exclusively by the vendor**, unless explicitly required by the chosen solution.
+
+### 10.4 Expected Project Scale
+
+This project should be understood as:
+
+* A well-scoped CMS implementation
+* With clearly defined features and blocks
+* Limited user roles
+* Minimal uncertainty around data sources and integrations
+* Strong internal support from a technically experienced team
+
+It is not intended to be a large, multi-year digital transformation or a fully custom CMS build.
+
+## 11. Submission Instructions
 
 * Proposals must be submitted [here](https://airtable.com/appPzDblrauasJbUp/pagpPoe9OuYFjsoye/form).
 * Format: PDF or Markdown document, including all sections listed above
