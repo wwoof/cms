@@ -119,7 +119,23 @@ These features are **explicitly out of scope for the MVP**, but the proposed sol
 * The existing [editorial website of **WWOOF France**](https://asso.wwoof.fr/) can be used as a reference and starting point for block design and page structures, in order to leverage prior design work and reduce unnecessary redesign efforts
 * No need to redesign CMS admin interface beyond minimal usability improvements
 
-## 5. Timeline
+Absolutely. Here’s a **short, sharp version** that keeps the intent crystal clear and very RFP-friendly.
+
+You can drop this in as **Section 5** right after Design & UX.
+
+## 5. Data Migration (Blog Posts)
+
+Most existing editorial websites used by national WWOOF organizations are built with **WordPress**.
+
+As part of this project, the Federation intends to provide a **limited migration path from WordPress**, with the following scope:
+
+* **Only blog/news posts** will be migrated
+* Pages and other content types are **out of scope**
+* Migration is **best effort** and aims to preserve historical content, not exact visual fidelity
+
+The selected vendor will be expected to provide a reusable script to migrate WordPress blog posts (text, images when possible, and basic metadata) into the new CMS, along with basic documentation.
+
+## 6. Timeline
 
 | Phase                       | Timeline         | Notes                                   |
 | --------------------------- | ---------------- | --------------------------------------- |
@@ -132,7 +148,7 @@ These features are **explicitly out of scope for the MVP**, but the proposed sol
 
 Vendors may suggest alternative timelines if they believe adjustments are realistic.
 
-## 6. Proposal Requirements
+## 7. Proposal Requirements
 
 Proposals should include:
 
@@ -144,7 +160,7 @@ Proposals should include:
 6. **Cost Estimate**: development, optional maintenance, and hosting considerations
 7. **Optional Maintenance Plan**: proposals for post-MVP support
 
-## 7. Evaluation Criteria
+## 8. Evaluation Criteria
 
 Proposals will be evaluated on:
 
@@ -155,13 +171,13 @@ Proposals will be evaluated on:
 * Ability to provide both front-end design and development in a single contract
 * Proposed technology and hosting approach
 
-## 8. Ownership & Post-Launch
+## 9. Ownership & Post-Launch
 
 * All intellectual property, code, and content produced for the CMS will belong to the Federation
 * CMS must allow Federation IT team to take full ownership post-MVP
 * Vendor must provide code in a **GitHub repository under the Federation’s organization**
 
-## 9. Submission Instructions
+## 10. Submission Instructions
 
 * Proposals must be submitted [here](https://airtable.com/appPzDblrauasJbUp/pagpPoe9OuYFjsoye/form).
 * Format: PDF or Markdown document, including all sections listed above
