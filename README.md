@@ -140,15 +140,20 @@ The CMS is intended to support a small, clearly defined set of user roles. These
 
 ### 3.6 Future Considerations (Out of Scope for MVP)
 
-In the future, the CMS may support **limited, unauthenticated content submission** by public users, for example:
+In the future, the CMS may support **limited, unauthenticated form-based content submissions** by public users.
 
-* Submitting a marketplace item (e.g. equipment for sale, job offer)
-* One-time form-based submissions
+These submissions would follow a simple and consistent model:
 * No user accounts
-* No ability to edit content after submission
-* All submissions require approval by an admin before publication
+* One-time submissions via public forms
+* No ability for users to edit content after submission
+* All submissions require review and approval by an admin before publication
 
-These features are **explicitly out of scope for the MVP**, but the proposed solution should not make them impossible to implement later.
+This mechanism could be used for use cases such as:
+* Submitting a marketplace item (e.g. equipment for sale, job offer)
+* Submitting a public event hosted on a farm
+* Other one-off public contributions
+
+These features are **explicitly out of scope for the MVP**, but the proposed solution should not make them difficult or impossible to implement later.
 
 ## 4. Design & User Experience
 
