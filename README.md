@@ -71,10 +71,12 @@ These blocks are specific to WWOOF needs and may pull data from external APIs (C
 * **Testimonials / member reviews**  
   Read-only display from a public CWP REST API.
 
-* **Coordinators block**  
-  Display coordinators (photo, name, short bio) from a public CWP REST API, with two presentation modes:
+* **Coordinators / volunteers block**  
+  Display coordinators and selected volunteers (photo, name, short bio) from a public CWP REST API, with two presentation modes:
   * List / grid / carousel
-  * Map-based view (same data, alternate visualization).
+  * Map-based view, keeping in mind that:
+    * The CWP REST API already provides GPS coordinates for coordinators and volunteers
+    * The Federation already operates its own map tile infrastructure
 
 * **Upcoming events carousel**  
   Dynamic carousel displaying upcoming events for the organization, sourced from the CMS events content.
