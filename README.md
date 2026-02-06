@@ -119,10 +119,6 @@ These features are **explicitly out of scope for the MVP**, but the proposed sol
 * The existing [editorial website of **WWOOF France**](https://asso.wwoof.fr/) can be used as a reference and starting point for block design and page structures, in order to leverage prior design work and reduce unnecessary redesign efforts
 * No need to redesign CMS admin interface beyond minimal usability improvements
 
-Absolutely. Here’s a **short, sharp version** that keeps the intent crystal clear and very RFP-friendly.
-
-You can drop this in as **Section 5** right after Design & UX.
-
 ## 5. Data Migration (Blog Posts)
 
 Most existing editorial websites used by national WWOOF organizations are built with **WordPress**.
