@@ -76,22 +76,22 @@ These blocks are specific to WWOOF needs and may pull data from external APIs (C
   * List / grid / carousel
   * Map-based view, keeping in mind that:
     * The CWP REST API already provides GPS coordinates for coordinators and volunteers
-    * The Federation already operates its own map tile infrastructure
+    * The Federation already operates its own map tile infrastructure (MapLibre + Protomaps)
+
+* **Newsletter subscription**  
+  Integration with a public CWP REST API.
 
 * **Upcoming events carousel**  
   Dynamic carousel displaying upcoming events for the organization, sourced from the CMS events content.
-
-* **Newsletter subscription**  
-  Integration with multiple providers: Brevo, Mailchimp, MailerLite, EmailIt (site-specific configuration).
 
 * **Social media feeds**  
   Primarily Instagram feeds; optional support for other embeds.
 
 * **Key numbers / impact statistics**  
-  Highlighted metrics (e.g. number of members, impact figures), input manually (no API).
+  Highlighted metrics (e.g. number of members, impact figures), input manually (no API integration).
 
 * **Global or page-level alert banner**  
-  Configurable banner for important announcements, optionally shown site-wide.
+  Configurable banner for important announcements, shown site-wide.
 
 ### 3.3 Multi-Site Management
 
@@ -133,6 +133,7 @@ The CMS is intended to support a small, clearly defined set of user roles. These
 
 * Proposal should include **technology choice recommendations** (WordPress, Craft, Statamic, etc.)
 * CMS should allow **self-hosting** on our servers (Kubernetes) or via a cloud provider, owned by the Federation
+* WordPress multisite or similar mature CMS solutions are acceptable and encouraged
 * Content must be indexable by search engines (Server-Side Rendering)
 * Vendor may customize CMS admin interface minimally to simplify editor experience
 * Content must be **exposable via APIs**, maintaining separation of content and presentation
@@ -174,6 +175,7 @@ As part of this project, the Federation intends to provide a **limited migration
 * **Only blog/news posts** will be migrated
 * Pages and other content types are **out of scope**
 * Migration is **best effort** and aims to preserve historical content, not exact visual fidelity
+* Manual cleanup by editors is expected and accepted
 
 The selected vendor will be expected to provide a reusable script to migrate WordPress blog posts (text, images when possible, and basic metadata) into the new CMS, along with basic documentation.
 
