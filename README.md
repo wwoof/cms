@@ -183,12 +183,12 @@ The selected vendor will be expected to provide a reusable script to migrate Wor
 
 | Phase                       | Timeline         | Notes                                   |
 | --------------------------- | ---------------- | --------------------------------------- |
-| RFP Publication             | Feb 2026         | Public posting                          |
-| Proposal Submission         | March 2026       | Deadline: March 31                      |
+| RFP Publication             | Marcg 2026       | Public posting                          |
+| Proposal Submission         | April 2026       | Deadline: April 20                      |
 | Vendor Selection & Contract | April 2026       | Federation review and selection         |
 | Design Phase                | May 2026         | UX/UI for front-end and block templates |
 | Development                 | Summer–Fall 2026 | MVP build, testing, deployment          |
-| Handover / Launch           | End 2026         | CMS live for national sites             |
+| Handover / Launch           | End of 2026      | CMS live for national sites             |
 
 Vendors may suggest alternative timelines if they believe adjustments are realistic.
 
