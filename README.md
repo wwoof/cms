@@ -289,7 +289,6 @@ It is not intended to be a large, multi-year digital transformation or a fully c
 ## 11. Submission Instructions
 
 * Proposals must be submitted [here](https://airtable.com/appPzDblrauasJbUp/pagpPoe9OuYFjsoye/form).
-* Format: PDF or Markdown document, including all sections listed above
 * Deadline: **April 20, 2026, at 14:00 (CEST, Paris time)**
 
 Questions about the RFP may be submitted via email to [dev@wwoof.net](mailto:dev@wwoof.net) until **April 7, 2026**.
