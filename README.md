@@ -117,7 +117,7 @@ The CMS is intended to support a small, clearly defined set of user roles. These
 
 * Employees or trusted volunteers of national WWOOF organizations (approximately 60–80 people across all organizations)
 * Typically have access to **one national website only**
-* May manage content in one or more languages for that site
+* May manage content in any language for that site
 * Responsible for:
   * Creating and editing pages, posts, and events
   * Managing editorial content using blocks
