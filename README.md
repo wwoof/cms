@@ -183,7 +183,7 @@ The selected vendor will be expected to provide a reusable script to migrate Wor
 
 | Phase                       | Timeline         | Notes                                   |
 | --------------------------- | ---------------- | --------------------------------------- |
-| RFP Publication             | Marcg 2026       | Public posting                          |
+| RFP Publication             | March 2026       | Public posting                          |
 | Proposal Submission         | April 2026       | Deadline: April 20                      |
 | Vendor Selection & Contract | April 2026       | Federation review and selection         |
 | Design Phase                | May 2026         | UX/UI for front-end and block templates |
