@@ -292,3 +292,70 @@ It is not intended to be a large, multi-year digital transformation or a fully c
 * Deadline: **April 20, 2026, at 14:00 (CEST, Paris time)**
 
 Questions about the RFP may be submitted via email to [dev@wwoof.net](mailto:dev@wwoof.net) until **April 7, 2026**.
+
+------
+
+## Additional Information and Clarifications
+
+The following information is provided in response to questions received from vendors during the proposal preparation period. These clarifications are shared with all potential vendors to ensure equal access to information.
+
+### List of WWOOF Organizations and Domains
+
+A list of all WWOOF organizations and their current domains is available in the following spreadsheet:
+
+https://docs.google.com/spreadsheets/d/105rIVqQ3kejsA8GEKEVLVzCKy4ZFcyd3K2LFSywFAsg/edit?usp=sharing
+
+The spreadsheet contains the following information for each organization:
+
+- The name of the WWOOF organization
+- The **CWP domain** used for the organization's platform on the Common WWOOF Platform (CWP)
+- The **editorial domain**, when one exists, used for the organization's editorial website
+- The current CMS used for the editorial website, where applicable
+- Additional notes about the current setup
+
+Not all organizations currently have editorial websites. In several cases, the only existing website is the CWP site.
+
+### WordPress Usage and Content Migration
+
+Most existing editorial websites currently use **WordPress**.
+
+The majority of these WordPress sites use the **Divi page builder** for page layout and design. However, the **blog posts themselves are written using the Gutenberg editor**.
+
+Since the scope of the migration defined in this RFP concerns only **blog posts**, and not pages, the migration is expected to only involve **Gutenberg-based content**, which should simplify the migration process.
+
+At this stage, the expectation is that **content migration will only be required for WordPress-based editorial websites**. Editorial sites built on other technologies are outside the migration scope.
+
+### Existing WordPress Multisite Installation
+
+Currently, **five WWOOF editorial websites** are hosted on a **WordPress Multisite installation** managed by the Federation and hosted on SiteGround.
+
+These sites share the same infrastructure and administration environment.
+
+In terms of traffic, the current multisite installation experiences approximately:
+
+- **Up to 8,000 unique visitors per day** at peak
+- **Around 100,000 unique visitors during the busiest month**
+
+These figures reflect traffic from a subset of organizations. Once additional organizations adopt the new CMS, traffic may increase, although many of the largest organizations are already included in the current multisite setup.
+
+Two additional organizations currently use WordPress **outside of the existing multisite installation**:
+
+- WWOOF Italy
+- WWOOF Canada
+
+These two sites would likely require a full migration of blog posts.
+
+### Open Question for Vendors: Potential Reuse of the Existing Multisite
+
+Vendors are invited to consider whether the **existing WordPress multisite installation** could potentially be reused as part of the solution.
+
+If technically feasible, one possible approach could be to:
+
+- reuse the existing multisite infrastructure,
+- implement the new design, theme, or plugin architecture proposed in this project,
+- avoid or significantly reduce the need for migration for the websites already hosted within the multisite system.
+
+We welcome vendors' perspectives on whether such an approach would be viable, advisable, or beneficial compared to a full migration strategy.
+
+
+
